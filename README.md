@@ -1,10 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [NewsPortal](https://nextjs.org) project created with NextJs, Prisma, MySQL and Bootstrap.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+
+npm i
+# or
+yarn i
+# or
+pnpm i
+# or
+bun i
+
 npm run dev
 # or
 yarn dev
@@ -14,23 +23,53 @@ pnpm dev
 bun dev
 ```
 
+## Setup .env:
+
+```
+DATABASE_URL="mysql://**:**/**"
+
+///JWT_SECRET
+JWT_SECRET="123-XYZ-ABC"
+JWT_ISSUER="Localhost"
+JWT_EXPIRATION_TIME="24h"
+HOST="http://localhost:3000"
+```
+
+Using Package:
+
+```bash
+bootstrap and tailwindcss
+bootstrap-icons
+html-react-parser
+jose (Token Encode and Decode)
+js-cookie
+nextjs-toploader
+nodemailer (For email sending)
+eact-hot-toast (For showing toast)
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Futures This News Portal Project
 
-## Learn More
+* Full Stack Project
+* Dynamic Navigation system
+* Beautiful Hero Section
+* Category News Manu
+* Latest News
+* Popular News
+* Email Subscription
+* Create and Delete comments
+* Login Registration
+* Recoverer Password
+* Sending OTP in email and verification with OTP
+* Update Profile
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## I'm available:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Facebook [Md Nur Rahman](https://web.facebook.com/jinna.jinna.7509/) and [Code with Jinna](https://web.facebook.com/profile.php?id=61573133143759)
+- LikedIn [Jinna89](https://www.linkedin.com/in/jinna89)
+- YouTube [Code with Jinna](https://www.youtube.com/@Jinna_89)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

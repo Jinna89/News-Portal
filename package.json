@@ -9,15 +9,26 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/client": "^6.17.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "html-react-parser": "^5.2.8",
+    "jose": "^6.1.0",
+    "js-cookie": "^3.0.5",
+    "next": "15.5.4",
+    "nextjs-toploader": "^3.9.17",
+    "nodemailer": "^7.0.10",
     "react": "19.1.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "react-hot-toast": "^2.6.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "prisma": "^6.17.0",
+    "tailwindcss": "^4"
   }
 }
