@@ -4,6 +4,7 @@ This is a [NewsPortal](https://nextjs.org) project created with NextJs, Prisma, 
 
 First, run the development server:
 
+
 ```bash
 
 npm i
@@ -23,10 +24,18 @@ pnpm dev
 bun dev
 ```
 
+## Emport Postman Documentation and MySQL Database:
+
+```
+* Emport Postman documentation on Postman. Documentation have postman folder
+* Emport database. Database have mySQL folder 
+
+```
+
 ## Setup .env:
 
 ```
-DATABASE_URL="mysql://**:**/**"
+DATABASE_URL="mysql://root:@localhost:3306/mydb"
 
 ///JWT_SECRET
 JWT_SECRET="123-XYZ-ABC"
