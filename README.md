@@ -60,7 +60,7 @@ eact-hot-toast (For showing toast)
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Futures This News Portal Project
+## Features This News Portal Project
 
 * Full Stack Project
 * Dynamic Navigation system
